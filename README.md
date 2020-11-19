@@ -68,8 +68,8 @@ HTML 頁面
 
    json 語系檔
 
-   ```javascript
-// en.json
+   ```JSON
+	// en.json
    {
        "sayName":"my nam is {{userName}}"
    }
