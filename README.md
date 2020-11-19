@@ -1,6 +1,6 @@
 # Angularjs 多語系 練習
 
-> 此為測試使用 angular.js 多語系支用
+> 此為測試使用 angular.js 多語系使用
 
 ## 系統設定
 
