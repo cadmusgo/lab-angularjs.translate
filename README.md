@@ -1,6 +1,6 @@
 # Angularjs 多語系 練習
 
-> 此為測試使用 angular.js 多語系使用
+> 此為測試使用 angular.js 多語系使用 https://github.com/cadmusgo/lab-angularjs.translate
 
 ## 系統設定
 
