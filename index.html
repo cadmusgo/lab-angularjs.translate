@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.min.js"
+		integrity="sha512-FEnq8QaTk5a73kgxNMFEo2/B/UA/OFl062tSoCBDLxdWCOX7it/OIjIJs9uhboT9ZE+HgQ3V/Z7F4f6WbGyROg=="
+		crossorigin="anonymous"></script>
+	<script type="text/javascript">
+		var app = angular
+			.module('app', [])
+			.controller('myController', ['$scope', function ($scope) {
+				var _self = this;
+
+				_self.UserList = [];
+				_self.clickTest = clickTest;
+
+
+				function clickTest() {
+					alert('test');
+				}
+
+			}]);
+	</script>
+</head>
+
+<body ng-app="app" ng-controller="myController as myCtrl">
+
+	<div>
+		Name: <input type="text" />
+		<br/>
+		<input type="button" value="click" ng-click="myCtrl.clickTest()" />
+	</div>
+
+	<prev>
+		{{ myCtrl | json }}
+	</prev>
+</body>
+
+</html>
