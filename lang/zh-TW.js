@@ -1,5 +1,5 @@
-{
+let zhTWLanguage = {
     "name": "聽風",
     "age": "27",
     "lang_select": "語言選擇"
-}
+};

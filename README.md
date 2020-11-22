@@ -115,6 +115,20 @@ javascript 中
 
 
 
+## script 方式載入js檔案
+
+> 考量 jQuery 等其他其端共用語系js 檔案，故將 json 改以 javascript 方式載入
+
+
+
+
+
+
+
+
+
+
+
 
 ## 參考文章
 

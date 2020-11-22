@@ -1,5 +1,5 @@
-{
+let zhLanguage = {
     "name": "听风",
     "age": "27",
     "lang_select": "语言选择"
-}
+};

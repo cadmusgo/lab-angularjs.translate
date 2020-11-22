@@ -1,3 +1,4 @@
+exports.language =
 {
     "name": "Nghe gió",
     "age": "27",

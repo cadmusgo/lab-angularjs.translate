@@ -1,5 +1,5 @@
-{
+let enLanguage = {
     "name": "echo",
     "age": "twenty-seven",
     "lang_select": "select language"
-}
+};
